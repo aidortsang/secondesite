@@ -1,0 +1,39 @@
+
+
+.comparto {
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+.About{
+    border: 2px solid black;
+    background-color: darksalmon;
+}
+
+.gallery {
+    background-color: rgb(255, 255, 255);
+}
+.Service {
+    background-color: rgb(255, 255, 255);
+}
+.contact{
+    background-color: rgb(255, 255, 255);
+}
+.right{
+    display: flex;
+    border: 2px solid black;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+    background-color: darksalmon;
+}
+.tt{
+    display: flex;
+    background-color: rgb(197, 95, 95);
+}
+.up{
+    display: flex;
+    border: 2px solid black;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+    background-color: darksalmon;
