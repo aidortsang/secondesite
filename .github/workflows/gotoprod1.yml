@@ -46,6 +46,6 @@ jobs:
           username: ${{ secrets.WUSERNAME }}
           password: ${{ secrets.WPASSWORD }}
           port: ${{ secrets.WPORT }}
-          # source: "tests/a.txt,tests/b.txt"
-          source: "./*.html, ./*.css, ./assets"
-          target: "/var/www/html/tai/premiersite/"
+          source: "tests/a.txt,tests/b.txt"
+          source: "./*.html, ./*.css"
+          #target: "/var/www/html/tai/premiersite/"
