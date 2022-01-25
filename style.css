@@ -44,3 +44,11 @@
     display:flex
 
 }
+.gallery{
+    background-color: turquoise;
+    width: 100px;;
+}
+.CONTACT{
+    background-color: blueviolet;
+    border: 2px solid black;
+}
