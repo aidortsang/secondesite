@@ -1,31 +1,77 @@
 
-
-.comparto {
-    background-color: blueviolet;
-    border: 2px solid black;
-}
-.About{
-    border: 2px solid black;
-    background-color: darksalmon;
+body{
+    margin: 30px;
 }
 
-.gallery {
-    background-color: rgb(255, 255, 255);
-}
-.Service {
-    background-color: rgb(255, 255, 255);
-}
-.contact{
-    background-color: rgb(255, 255, 255);
-}
-.right{
+nav{
     display: flex;
-    border: 2px solid black;
-    margin: auto;  
-    padding: 20px;
-    text-align: center;
-    background-color: rgb(138, 145, 141);
+    margin: 30px;
 }
+
+.premierclass{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.comparto{
+    margin-right: 20px;
+    font-size: 45px;
+    color: white;
+    background-color: rgb(100, 100, 240);
+    text-align: center;
+    width: 25%
+    
+}
+
+.sousdiv{    
+    
+    display: flex;
+    justify-content: end;
+    background-color: rgb(231, 222, 231);
+    width: 75%;
+}
+
+.elements1{
+    background-color: rgb(252, 157, 141);
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    margin-top: 20px;
+
+    text-align: center;
+    width: 125px;
+}
+
+.elements2{
+    background-color: white;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 125px;
+}
+
+.elements3{
+    background-color: white;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 125px;
+}
+
+.elements4{
+    background-color: white;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 125px;
+}
+.compartolayout{
+    background-color: rgb(176, 176, 192);
+    margin-left: 20px;
+    padding: 45px;
+    font-size: 24px;
+}
+
 .tt{
     display: flex;
     background-color: rgb(197, 95, 95);
@@ -41,8 +87,14 @@
 .emoji{
     background-color: rgb(95, 117, 143);
     font-size:100px;
-    display:flex
+    
 
+}
+.pourlesdeux{
+    background-color: rgb(176, 176, 192);
+    margin-left: 20px;
+    padding: 45px;
+    font-size: 24px;
 }
 .gallery{
     background-color: turquoise;
@@ -51,6 +103,16 @@
 .CONTACT{
     background-color: blueviolet;
     border: 2px solid black;
+
+.icone{
+        text-align: center;
+    }
+    
+    .icone img{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+
 }
 .footer {
     
